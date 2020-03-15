@@ -1,2 +1,2 @@
 # derricksaenz.github.io
-Art &amp; Design Portfolio Website
+Derrick Saenz Professional and Portfolio Website

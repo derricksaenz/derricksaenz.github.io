@@ -312,7 +312,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/hero/design.png);
+    background: url(/images/hero/design.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -324,7 +324,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/hero/photo.png);
+    background: url(/images/hero/photo.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -336,7 +336,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/hero/ux.png);
+    background: url(/images/hero/ux.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -348,7 +348,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/hero/photo2.png);
+    background: url(/images/hero/photo2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -360,7 +360,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/hero/ux2.png);
+    background: url(/images/hero/ux2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -372,7 +372,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/hero/design.png);
+    background: url(/images/hero/design.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -387,7 +387,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mdesign.png);
+    background: url(/images/mhero/mdesign.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -399,7 +399,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mphoto.png);
+    background: url(/images/mhero/mphoto.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -411,7 +411,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mux.png);
+    background: url(/images/mhero/mux.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -423,7 +423,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mphoto2.png);
+    background: url(/images/mhero/mphoto2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -435,7 +435,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mux2.png);
+    background: url(/images/mhero/mux2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -447,7 +447,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mdesign.png);
+    background: url(/images/mhero/mdesign.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;

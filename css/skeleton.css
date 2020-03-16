@@ -233,9 +233,9 @@ body {
     background-size: cover;
     background-position: center bottom;
 
-    animation: mhero-slides 25s ease-in-out infinite 2s forwards;
-    -webkit-animation: mhero-slides 25s ease-in-out infinite 2s forwards;
-    -moz-animation: mhero-slides 25s ease-in-out infinite 2s forwards;
+    animation: mhero-slides 15s ease-in-out infinite 2s forwards;
+    -webkit-animation: mhero-slides 15s ease-in-out infinite 2s forwards;
+    -moz-animation: mhero-slides 15s ease-in-out infinite 2s forwards;
   }
   .hero-content {
     display: block;
@@ -265,9 +265,9 @@ body {
     background-size: cover;
     background-position: right bottom;
 
-    animation: hero-slides 25s ease-in-out infinite 2s forwards;
-    -webkit-animation: hero-slides 25s ease-in-out infinite 2s forwards;
-    -moz-animation: hero-slides 25s ease-in-out infinite 2s forwards;
+    animation: hero-slides 15s ease-in-out infinite 2s forwards;
+    -webkit-animation: hero-slides 15s ease-in-out infinite 2s forwards;
+    -moz-animation: hero-slides 15s ease-in-out infinite 2s forwards;
   }
   .hero-content {
     display: block;

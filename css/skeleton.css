@@ -233,9 +233,9 @@ body {
     background-size: cover;
     background-position: center bottom;
 
-    animation: mhero-slides 15s ease-in-out infinite 2s forwards;
-    -webkit-animation: mhero-slides 15s ease-in-out infinite 2s forwards;
-    -moz-animation: mhero-slides 15s ease-in-out infinite 2s forwards;
+    animation: mhero-slides 25s ease-in-out infinite 2s forwards;
+    -webkit-animation: mhero-slides 25s ease-in-out infinite 2s forwards;
+    -moz-animation: mhero-slides 25s ease-in-out infinite 2s forwards;
   }
   .hero-content {
     display: block;
@@ -265,9 +265,9 @@ body {
     background-size: cover;
     background-position: right bottom;
 
-    animation: hero-slides 15s ease-in-out infinite 2s forwards;
-    -webkit-animation: hero-slides 15s ease-in-out infinite 2s forwards;
-    -moz-animation: hero-slides 15s ease-in-out infinite 2s forwards;
+    animation: hero-slides 25s ease-in-out infinite 2s forwards;
+    -webkit-animation: hero-slides 25s ease-in-out infinite 2s forwards;
+    -moz-animation: hero-slides 25s ease-in-out infinite 2s forwards;
   }
   .hero-content {
     display: block;
@@ -405,7 +405,7 @@ body {
     background-size: cover;
     background-position: right bottom;
   }
-  20% {
+  10% {
     content: "";
     position: absolute;
     top: 0;
@@ -417,7 +417,7 @@ body {
     background-size: cover;
     background-position: right bottom;
   }
-  40% {
+  30% {
     content: "";
     position: absolute;
     top: 0;
@@ -429,7 +429,7 @@ body {
     background-size: cover;
     background-position: right bottom;
   }
-  60% {
+  50% {
     content: "";
     position: absolute;
     top: 0;
@@ -441,7 +441,7 @@ body {
     background-size: cover;
     background-position: right bottom;
   }
-  80% {
+  70% {
     content: "";
     position: absolute;
     top: 0;
@@ -449,6 +449,18 @@ body {
     width: 100%;
     height: 100%;
     background: url(/images/hero/ux2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  90% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/design.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -479,7 +491,7 @@ body {
     background-size: cover;
     background-position: right bottom;
   }
-  20% {
+  10% {
     content: "";
     position: absolute;
     top: 0;
@@ -491,7 +503,7 @@ body {
     background-size: cover;
     background-position: right bottom;
   }
-  40% {
+  30% {
     content: "";
     position: absolute;
     top: 0;
@@ -503,7 +515,7 @@ body {
     background-size: cover;
     background-position: right bottom;
   }
-  60% {
+  50% {
     content: "";
     position: absolute;
     top: 0;
@@ -515,7 +527,7 @@ body {
     background-size: cover;
     background-position: right bottom;
   }
-  80% {
+  70% {
     content: "";
     position: absolute;
     top: 0;
@@ -523,6 +535,18 @@ body {
     width: 100%;
     height: 100%;
     background: url(/images/hero/ux2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  90% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/design.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -554,7 +578,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  20% {
+  10% {
     content: "";
     position: absolute;
     top: 0;
@@ -566,7 +590,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  40% {
+  30% {
     content: "";
     position: absolute;
     top: 0;
@@ -578,7 +602,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  60% {
+  50% {
     content: "";
     position: absolute;
     top: 0;
@@ -590,7 +614,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  80% {
+  70% {
     content: "";
     position: absolute;
     top: 0;
@@ -598,6 +622,18 @@ body {
     width: 100%;
     height: 100%;
     background: url(/images/mhero/mux2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  90% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mdesign.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -628,7 +664,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  20% {
+  10% {
     content: "";
     position: absolute;
     top: 0;
@@ -640,7 +676,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  40% {
+  30% {
     content: "";
     position: absolute;
     top: 0;
@@ -652,7 +688,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  60% {
+  50% {
     content: "";
     position: absolute;
     top: 0;
@@ -664,7 +700,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  80% {
+  70% {
     content: "";
     position: absolute;
     top: 0;
@@ -672,6 +708,18 @@ body {
     width: 100%;
     height: 100%;
     background: url(/images/mhero/mux2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  90% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mdesign.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -702,7 +750,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  20% {
+  10% {
     content: "";
     position: absolute;
     top: 0;
@@ -714,7 +762,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  40% {
+  30% {
     content: "";
     position: absolute;
     top: 0;
@@ -726,7 +774,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  60% {
+  50% {
     content: "";
     position: absolute;
     top: 0;
@@ -738,7 +786,7 @@ body {
     background-size: cover;
     background-position: center bottom;
   }
-  80% {
+  70% {
     content: "";
     position: absolute;
     top: 0;
@@ -746,6 +794,18 @@ body {
     width: 100%;
     height: 100%;
     background: url(/images/mhero/mux2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  90% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mdesign.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -861,7 +921,7 @@ code {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: rgba(0,183,255,1);
+  color: rgba(12,112,232,1);
   text-decoration: none;
 }
 a:hover {

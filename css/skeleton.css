@@ -233,8 +233,9 @@ body {
     background-size: cover;
     background-position: center bottom;
 
-    animation: mhero-slides 15s linear infinite 2s;
-    animation-timing-function: ease-in-out;
+    animation: mhero-slides 15s ease-in-out infinite 2s forwards;
+    -webkit-animation: mhero-slides 15s ease-in-out infinite 2s forwards;
+    -moz-animation: mhero-slides 15s ease-in-out infinite 2s forwards;
   }
   .hero-content {
     display: block;
@@ -264,8 +265,9 @@ body {
     background-size: cover;
     background-position: right bottom;
 
-    animation: hero-slides 20s linear infinite 2s;
-    animation-timing-function: ease-in-out;
+    animation: hero-slides 15s ease-in-out infinite 2s forwards;
+    -webkit-animation: hero-slides 15s ease-in-out infinite 2s forwards;
+    -moz-animation: hero-slides 15s ease-in-out infinite 2s forwards;
   }
   .hero-content {
     display: block;
@@ -305,6 +307,166 @@ body {
 }
 
 @keyframes hero-slides {
+  0% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  10% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/photo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  30% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/ux.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  50% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/photo2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  70% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/ux2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  90% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  100% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+}
+@-webkit-keyframes hero-slides {
+  0% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  20% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/photo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  40% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/ux.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  60% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/photo2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  80% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/ux2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  100% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+}
+@-moz-keyframes hero-slides {
   0% {
     content: "";
     position: absolute;
@@ -380,6 +542,154 @@ body {
 }
 
 @keyframes mhero-slides {
+  0% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mdesign.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  20% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mphoto.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  40% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mux.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  60% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mphoto2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  80% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mux2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  100% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mdesign.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+}
+@-webkit-keyframes mhero-slides {
+  0% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mdesign.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  20% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mphoto.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  40% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mux.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  60% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mphoto2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  80% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mux2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  100% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mdesign.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+}
+@-moz-keyframes mhero-slides {
   0% {
     content: "";
     position: absolute;

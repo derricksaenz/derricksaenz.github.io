@@ -228,10 +228,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mbackground.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
+
+    animation: mhero-slides 10s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background: url(/images/mhero/mbackground.svg);
   }
   .hero-content {
     display: block;
@@ -256,10 +259,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/hero/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
+
+    animation: hero-slides 10s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background: url(/images/hero/background.svg);
   }
   .hero-content {
     display: block;
@@ -296,6 +302,156 @@ body {
   background: -webkit-linear-gradient(90deg, rgba(0,183,255,1) 0%, rgba(12,112,232,1) 50%, rgba(13,59,255,1) 100%);
   background: linear-gradient(90deg, rgba(0,183,255,1) 0%, rgba(12,112,232,1) 50%, rgba(13,59,255,1) 100%);
   border: 1px solid #e6e6e6;
+}
+
+@keyframes hero-slides {
+  0% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  20% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  40% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/ux.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  60% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/photo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  80% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/ux2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+  100% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/hero/design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+  }
+}
+
+@keyframes mhero-slides {
+  0% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mdesign.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  20% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mphoto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  40% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mux.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  60% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mphoto2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  80% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mux2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  100% {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/mhero/mdesign.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
 }
 
 

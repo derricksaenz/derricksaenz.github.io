@@ -256,8 +256,6 @@ body {
   .hero::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: url(/images/hero/background.svg);
@@ -265,9 +263,9 @@ body {
     background-size: cover;
     background-position: right bottom;
 
-    animation: hero-slides 15s ease-in-out infinite 2s forwards;
-    -webkit-animation: hero-slides 15s ease-in-out infinite 2s forwards;
-    -moz-animation: hero-slides 15s ease-in-out infinite 2s forwards;
+    animation: hero-slides 15s ease-in-out infinite 2.5s forwards;
+    -webkit-animation: hero-slides 15s ease-in-out infinite 2.5s forwards;
+    -moz-animation: hero-slides 15s ease-in-out infinite 2.5s forwards;
   }
   .hero-content {
     display: block;
@@ -310,8 +308,6 @@ body {
   0% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: url(/images/hero/design.svg);
@@ -322,8 +318,6 @@ body {
   10% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: url(/images/hero/photo.svg);
@@ -334,8 +328,6 @@ body {
   30% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: url(/images/hero/ux.svg);
@@ -346,8 +338,6 @@ body {
   50% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: url(/images/hero/photo2.svg);
@@ -358,8 +348,6 @@ body {
   70% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: url(/images/hero/ux2.svg);
@@ -370,8 +358,6 @@ body {
   90% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: url(/images/hero/design.svg);
@@ -382,8 +368,6 @@ body {
   100% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: url(/images/hero/design.svg);

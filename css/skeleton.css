@@ -228,7 +228,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mbackground.svg);
+    background: url(/images/mhero/mdesign.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -258,12 +258,12 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(/images/hero/design.png);
+    background: url(/images/hero/design.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
 
-    animation: hero-slides 15s ease-in-out infinite 3s forwards;
+    animation: hero-slides 15s ease-in-out infinite 2.5 forwards;
     -webkit-animation: hero-slides 15s ease-in-out infinite 2.5s forwards;
     -moz-animation: hero-slides 15s ease-in-out infinite 2.5s forwards;
   }

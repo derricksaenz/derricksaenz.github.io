@@ -263,9 +263,9 @@ body {
     background-size: cover;
     background-position: right bottom;
 
-    animation: hero-slides 15s ease-in-out infinite 2.5 forwards;
-    -webkit-animation: hero-slides 15s ease-in-out infinite 2.5s forwards;
-    -moz-animation: hero-slides 15s ease-in-out infinite 2.5s forwards;
+    animation: hero-slides 15s ease-in-out infinite 3s forwards;
+    -webkit-animation: hero-slides 15s ease-in-out infinite 3s forwards;
+    -moz-animation: hero-slides 15s ease-in-out infinite 3s forwards;
   }
   .hero-content {
     display: block;
@@ -302,241 +302,6 @@ body {
   background: -webkit-linear-gradient(90deg, rgba(0,183,255,1) 0%, rgba(12,112,232,1) 50%, rgba(13,59,255,1) 100%);
   background: linear-gradient(90deg, rgba(0,183,255,1) 0%, rgba(12,112,232,1) 50%, rgba(13,59,255,1) 100%);
   border: 1px solid #e6e6e6;
-}
-
-@keyframes hero-slides {
-  0% {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/design.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  20% {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/photo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  40% {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/ux.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  60% {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/photo2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  80% {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/ux2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  100% {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/design.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-}
-@-webkit-keyframes hero-slides {
-  0% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/design.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  10% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/photo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  30% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/ux.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  50% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/photo2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  70% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/ux2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  90% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/design.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  100% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/design.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-}
-@-moz-keyframes hero-slides {
-  0% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/design.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  10% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/photo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  30% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/ux.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  50% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/photo2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  70% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/ux2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  90% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/design.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
-  100% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/hero/design.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
-  }
 }
 
 @keyframes mhero-slides {
@@ -625,176 +390,66 @@ body {
     background-position: center bottom;
   }
 }
-@-webkit-keyframes mhero-slides {
+@keyframes hero-slides {
   0% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mdesign.svg);
+    background: url(/images/hero/design.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: right bottom;
   }
-  10% {
+  20% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mphoto.svg);
+    background: url(/images/hero/photo.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: right bottom;
   }
-  30% {
+  40% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mux.svg);
+    background: url(/images/hero/ux.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: right bottom;
   }
-  50% {
+  60% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mphoto2.svg);
+    background: url(/images/hero/photo2.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: right bottom;
   }
-  70% {
+  80% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mux2.svg);
+    background: url(/images/hero/ux2.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
-  }
-  90% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/mhero/mdesign.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
+    background-position: right bottom;
   }
   100% {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/mhero/mdesign.svg);
+    background: url(/images/hero/design.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
-  }
-}
-@-moz-keyframes mhero-slides {
-  0% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/mhero/mdesign.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-  }
-  10% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/mhero/mphoto.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-  }
-  30% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/mhero/mux.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-  }
-  50% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/mhero/mphoto2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-  }
-  70% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/mhero/mux2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-  }
-  90% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/mhero/mdesign.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-  }
-  100% {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/mhero/mdesign.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
+    background-position: right bottom;
   }
 }
 

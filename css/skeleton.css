@@ -498,7 +498,7 @@ img{
 
 .summaryimg{
   float: left;
-  width: 33%;
+  width: 100%;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -748,6 +748,7 @@ form {
 .modal-content {
   margin: auto;
   display: block;
+  object-fit: contain;
   max-width: 70%;
   max-height: 90%;
 }

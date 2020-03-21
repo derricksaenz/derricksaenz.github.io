@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>www.derricksaenz.com | Portfolio</title>
+    <meta name="description" content="www.derricksaenz.com | Portfolio Page of Derrick Saenz">
+    <meta name="author" content="Derrick Saenz">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link href="/fonts/fonts.min.css" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+
+    <!-- Header and Footer
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script>
+      $(function(){
+      $("#footer").load("/footer.html");
+      });
+    </script>
+  </head>
+
+  <div class="navbar">
+    <div class="container">
+      <div class="row">
+        <div class="four columns" id="header">
+          <a href="/">
+            <img src="/images/Logo.svg" style="float: left;" class="logo-lg" alt="Logo">
+            <img src="/images/Icon.svg" style="float: left;" class="logo-sm" alt="Icon">
+          </a>
+        </div>
+        <div class="eight columns" id="header">
+          <div id="nav">
+            <a style="text-align: center;" href="/portfolio"><button>Portfolio</button></a>
+            <a style="text-align: center;" href="/resume"><button>Resume</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <p><a href="/portfolio">&#60; Return to Portfolio</a></p><br>
+          <h1>www.derricksaenz.com, Portfolio Website</h1>
+          <img src="macbookmockup.png" class="portfolioimg" style="width: 50%" id="myImg"></img>
+          <p>Currently, you are looking though my website, which tells me that the website works properly! The purpose of the website is to provide a place for all my professional work to sit and be used within a portfolio. I decided to rework my website in 2020 after a lot of time spent learning more about this craft and my place in it. I want to be able to show my best self and my best work, meaning I have to give the best experience with my website that I can.</p>
+          <p>My goals with the website are speed and style, and as the site does not need to be complicated with various libraries and plug-ins, the website can remain as light as a feather, loading within a fraction of a second on a good internet connection, like on LTE or public Wi-Fi.</p>
+          <p>This allows me to put myself and my work on display for anyone who wants to hire a graphic or web designer and see the work I have created in the past.</p>
+          <p>Through the site, people can get to know me as well as get to know my work and style. It also allows people to contact me to get in touch with a designer.</p>
+          <p>I hope my work can impress, and I look forward to working with more people as time goes on.</p>
+          <br><br>
+          <a href="/" target="_blank">Go to www.derricksaenz.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+    </div>
+
+    <script src="/js/modal.js"></script>
+  </body>
+
+  <footer>
+    <div id="footer"></div>
+  </footer>
+</html>

@@ -322,9 +322,9 @@ h2 {
   line-height: 1.25;
   letter-spacing: 0rem;
   font-weight: 700;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
   word-wrap: break-word;
 }
 h3 {

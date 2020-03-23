@@ -321,7 +321,11 @@ h2 {
   font-size: 3.6rem;
   line-height: 1.25;
   letter-spacing: 0rem;
-  font-weight: 700
+  font-weight: 700;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
 }
 h3 {
   color: white;

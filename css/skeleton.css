@@ -867,9 +867,7 @@ hr {
 .dropdown-content {
   display: none;
   position: absolute;
-  background: rgba(255,255,255,.9);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,1);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 3;

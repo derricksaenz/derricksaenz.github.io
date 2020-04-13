@@ -401,17 +401,27 @@ a {
 a:hover {
   color: white;
   text-decoration: none;
-  background: rgba(0,183,255,1);
+  background: rgba(12,112,232,1);
   background: linear-gradient(90deg, rgba(0,183,255,1) 0%, rgba(12,112,232,1) 50%, rgba(13,59,255,1) 100%);
 }
+
 .ondark{
   color: white;
 }
+
 .ondark:hover{
   color: rgba(12,112,232,1);
-  /*color: linear-gradient(90deg, rgba(0,183,255,1) 0%, rgba(12,112,232,1) 50%, rgba(13,59,255,1) 100%);*/
   background: white;
 }
+
+.social-icon{
+  color: rgba(255,255,255,1);
+}
+.social-icon:hover{
+  background: none;
+  color: rgba(255,255,255,.9);
+}
+
 .summarylink{
   color: black;
   background: none;
@@ -831,6 +841,11 @@ hr {
   appearance: none;
   border-radius: 0px;
   border: 0;
+  background: rgba(0,183,255,1);
+  background: linear-gradient(90deg, rgba(0,183,255,1) 0%, rgba(12,112,232,1) 50%, rgba(13,59,255,1) 100%);
+}
+
+.social-tab{
   background: rgba(0,183,255,1);
   background: linear-gradient(90deg, rgba(0,183,255,1) 0%, rgba(12,112,232,1) 50%, rgba(13,59,255,1) 100%);
 }

@@ -26,37 +26,21 @@
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="/images/Favicon.png">
-    
+
 
     <!-- Header and Footer
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="/js/jquery-3.4.1.min.js"></script>
     <script>
       $(function(){
+      $("#top-navigation").load("/nav.html");
       $("#footer").load("/footer.html");
       });
     </script>
+    <script type="text/javascript">$(document).ready(function(){$("a").on('click',function(event){if(this.hash!==""){event.preventDefault();var hash=this.hash;$('html, body').animate({scrollTop:$(hash).offset().top},800,function(){window.location.hash=hash;});}});});</script>
   </head>
 
-  <div class="navbar">
-    <div class="container">
-      <div class="row">
-        <div class="four columns" id="header">
-          <a href="/">
-            <img src="/images/Logo.svg" style="float: left;" class="logo-lg" alt="Logo">
-            <img src="/images/Icon.svg" style="float: left;" class="logo-sm" alt="Icon">
-          </a>
-        </div>
-        <div class="eight columns" id="header">
-          <div id="nav">
-            <a style="text-align: center;" href="/portfolio"><button>Portfolio</button></a>
-            <a style="text-align: center;" href="/resume"><button>Resume</button></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  <div class="navbar" id="top-navigation"></div>
   <body>
     <div class="container">
       <div class="row">

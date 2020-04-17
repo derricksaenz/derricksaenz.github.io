@@ -854,12 +854,18 @@ hr {
     display: none;
     overflow: hidden;
   }
+  .social-tab{
+    display: block;
+  }
 }
 @media (min-width: 600px) {
   .dropdown{
     display: block;
     float: right;
     overflow: hidden;
+  }
+  .social-tab{
+    display: none;
   }
 }
 
